@@ -1,0 +1,76 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Сайт на реконструкции</title>
+    <!-- for-mobile-apps -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords"
+          content="Flat Coming Soon Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates,
+          Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung,
+          LG, SonyEricsson, Motorola web design"/>
+    <!-- //for-mobile-apps -->
+    <link href='{% static 'moon/fonts.googleapis.com/css?family=Audiowide' %}' rel='stylesheet' type='text/css'>
+    <link href='{% static 'moon/fonts.googleapis.com/css?family=Montserrat:400,700' %}' rel='stylesheet' type='text/css'>
+    <link href='{% static 'moon/fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' %}'
+          rel='stylesheet' type='text/css'>
+    <link href="{% static 'moon/css/jquerysctipttop.css' %}" rel="stylesheet" type="text/css">
+
+    <link href="{% static 'moon/css/style.css' %}" rel="stylesheet" type="text/css" media="all"/>
+
+</head>
+<body>
+<div class="content">
+    <div class="main agile">
+        <h1></h1>
+        <div class="clock w3agile">
+            <div class="column days">
+                <div class="timer" id="days"></div>
+                <div class="text">ДНЕЙ</div>
+            </div>
+
+            <div class="column">
+                <div class="timer" id="hours"></div>
+                <div class="text">ЧАСОВ</div>
+            </div>
+
+            <div class="column">
+                <div class="timer" id="minutes"></div>
+                <div class="text">МИНУТ</div>
+            </div>
+
+            <div class="column">
+                <div class="timer" id="seconds"></div>
+                <div class="text">СЕКУНД</div>
+            </div>
+        </div>
+        <!-- Custom-JavaScript-File-Links -->
+        <script src="{% static 'moon/js/jquery-1.12.3.min.js' %}" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+                crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{% static 'moon/js/moment.js' %}"></script>
+        <script type="text/javascript" src="{% static 'moon/js/moment-timezone-with-data.js' %}"></script>
+        <script type="text/javascript" src="{% static 'moon/js/timer.js' %}"></script>
+        <!-- //Custom-JavaScript-File-Links -->
+
+{#        <div class="subscribe wthree">#}
+{#            <h2>Задать вопрос</h2>#}
+{#            <div class="contact-form">#}
+{#                <form action="#" method="post">#}
+{#                    <input type="email" value="Email" name="Email" onfocus="this.value = '';"#}
+{#                           onblur="if (this.value == '') {this.value = 'Email';}" required="">#}
+{#                    <input type="submit" value="Отправить">#}
+{#                    <div class="clear"></div>#}
+{#                </form>#}
+{#            </div>#}
+{#        </div>#}
+    </div>
+
+</div>
+<p class="copy_rights">&copy; 2019. Сделано в Vinsoft.FUN </p>
+</div>
+
+</body>
+</html>
