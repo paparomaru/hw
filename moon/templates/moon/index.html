@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Сайт на реконструкции</title>
+    <title>Сайт на разработке</title>
     <!-- for-mobile-apps -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,7 +14,8 @@
           LG, SonyEricsson, Motorola web design"/>
     <!-- //for-mobile-apps -->
     <link href='{% static 'moon/fonts.googleapis.com/css?family=Audiowide' %}' rel='stylesheet' type='text/css'>
-    <link href='{% static 'moon/fonts.googleapis.com/css?family=Montserrat:400,700' %}' rel='stylesheet' type='text/css'>
+    <link href='{% static 'moon/fonts.googleapis.com/css?family=Montserrat:400,700' %}' rel='stylesheet'
+          type='text/css'>
     <link href='{% static 'moon/fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' %}'
           rel='stylesheet' type='text/css'>
     <link href="{% static 'moon/css/jquerysctipttop.css' %}" rel="stylesheet" type="text/css">
@@ -30,6 +31,7 @@
             <div class="column days">
                 <div class="timer" id="days"></div>
                 <div class="text">ДНЕЙ</div>
+                <div class="text">{% static  ' '%}</div>
             </div>
 
             <div class="column">
@@ -48,24 +50,25 @@
             </div>
         </div>
         <!-- Custom-JavaScript-File-Links -->
-        <script src="{% static 'moon/js/jquery-1.12.3.min.js' %}" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+        <script src="{% static 'moon/js/jquery-1.12.3.min.js' %}"
+                integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
                 crossorigin="anonymous"></script>
         <script type="text/javascript" src="{% static 'moon/js/moment.js' %}"></script>
         <script type="text/javascript" src="{% static 'moon/js/moment-timezone-with-data.js' %}"></script>
         <script type="text/javascript" src="{% static 'moon/js/timer.js' %}"></script>
         <!-- //Custom-JavaScript-File-Links -->
 
-{#        <div class="subscribe wthree">#}
-{#            <h2>Задать вопрос</h2>#}
-{#            <div class="contact-form">#}
-{#                <form action="#" method="post">#}
-{#                    <input type="email" value="Email" name="Email" onfocus="this.value = '';"#}
-{#                           onblur="if (this.value == '') {this.value = 'Email';}" required="">#}
-{#                    <input type="submit" value="Отправить">#}
-{#                    <div class="clear"></div>#}
-{#                </form>#}
-{#            </div>#}
-{#        </div>#}
+        {#        <div class="subscribe wthree">#}
+        {#            <h2>Задать вопрос</h2>#}
+        {#            <div class="contact-form">#}
+        {#                <form action="#" method="post">#}
+        {#                    <input type="email" value="Email" name="Email" onfocus="this.value = '';"#}
+        {#                           onblur="if (this.value == '') {this.value = 'Email';}" required="">#}
+        {#                    <input type="submit" value="Отправить">#}
+        {#                    <div class="clear"></div>#}
+        {#                </form>#}
+        {#            </div>#}
+        {#        </div>#}
     </div>
 
 </div>
